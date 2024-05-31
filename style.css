@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  background-color:#fff;
+}
+
+.container {
+  width: 300px;
+  height: 500px;
+  background-image: url("./images/shadows-made-by-daylight-city-with-architecture.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.center {
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 2px;
+  color: white;
+  background: transparent;
+}
+
+form {
+  background: transparent;
+}
+
+.userinf {
+  margin-top: 7px;
+  margin-left: 13px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  width: 250px;
+  background-color: rgb(242, 243, 244, 0.8);
+}
+
+:placeholder-shown {
+  letter-spacing: px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+label {
+  margin-left: 13px;
+  color: white;
+}
+
+p {
+  text-align: right;
+  margin-right: 16px;
+  color: black;
+  background: transparent;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+button {
+  width: 250px;
+  margin-left: 21px;
+  padding: 8px;
+  color: black;
+  background-color: #7df9ff;
+  border: none;
+  border-radius: 7px;
+}
+
+button:hover {
+  background-color: #36454f;
+}
